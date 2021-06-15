@@ -18,6 +18,7 @@ By comment=By.xpath("//div[text()='Komentarze ']");
 
 	public void clickOnComment() {
 		driver.findElement(comment).click();
+		System.out.println("1st change");
 	}
 	
 }
